@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rps game</title>
+
+    <link rel="stylesheet" href="rps.css">
+</head>
+<body>
+    <div class="imp">
+        
+<div class ="div">
+    <div class="sample"></div>
+    <div class="main">
+    <h1 class="h1">ROCK.PAPER.SCISSOR</h1>
+    </div>
+    <div><h2>YOU  V/S    COMPUTER </h2></div>
+
+</div>
+<div>
+    <button value="choices" onclick="gstart()" class="start">START</button>
+    </div>
+   
+   
+<div class="logos">
+   
+    
+       <button onclick="buttonclick(0)" class="rk">
+        <img src="Paper.png" alt="paper" id="p">
+        </button>
+        <button onclick="buttonclick(1)" class="rk">
+            <img src="Rock.png" alt="ROCK" id="R">
+            </button>
+            <button onclick="buttonclick(2)" class="rk">
+                <img src="Scissors.png" alt="scissors" id="S">
+                </button>
+               
+                    
+   
+
+</div>
+<div>
+<input type="text" id="output">
+<div>
+<input type="text" id="out">
+
+</div>
+<div class="scores">
+<div class="box1">
+    <h3 class="h3">your score </h3>
+    <input type="text" id="score1">
+</div>
+<div class="wins">
+    <input type="text" id="info">
+    </div>
+<div class="box2">
+    <h3 class="h3">comp_score </h3>
+    <input type="text" id="score2">
+</div>
+
+
+</div>
+
+<div class="code">
+    <div class="user">
+     <img id="pick" src="">
+     </div>
+     <div class="announce">
+    
+     <input type="text" id ="winner">
+     </div>
+  <div class="comp_image">
+    <img id="comp_pick" src="">
+  </div>
+  
+
+</div>
+<div class="starter">
+    <button onclick="againstart()" class="play">PLAY AGAIN</button>
+
+</div>
+
+</div>
+
+
+   
+</div>
+
+<script src="rps.js"></script>
+</body>
+</html>
