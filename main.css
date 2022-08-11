@@ -1,0 +1,235 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.imp{
+margin: 0%;
+padding: 0%;
+background-color:#2B2B2B;
+min-height: 1000px;
+}
+.sample{
+    height: 10px;
+}
+.main{
+    margin-top: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    height:80px;
+    background-color:#474747;
+    border-radius: 35px;
+ }
+h1{
+   padding:20px;
+    font-size: 30px;
+    margin-left: 80px;
+    font-family: Arial, 
+            Helvetica, sans-serif;
+        background: linear-gradient(
+            to right, #f32170, #ff6b08,
+             #cf23cf, #eedd44);
+         -webkit-text-fill-color: transparent;
+         -webkit-background-clip: text;
+}
+h2{
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-family:cursive;
+     background: #b5651d ;
+     
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+}
+.logos{
+    width:450px;
+    height: 200px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 400px;
+    border-radius: 35px;
+    opacity: 70%;
+}
+.rk{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+#p{
+    width: 70px;
+    height: 70px;
+}
+#R{
+    width: 70px;
+    height: 70px;
+}
+#S{
+    width: 70px;
+    height: 70px;
+}
+.start{
+    width: 100px;
+    height:30px;
+    margin-top: 20px;
+    margin-left: 570px;
+    font-size: 20px;
+    
+    background: linear-gradient(
+        to bottom,
+        #B92B27,
+        #1565C0);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+   border: none;
+    cursor:pointer;
+    overflow: hidden;
+
+}
+#output{
+    margin-left: 529px;
+    margin-top: 20px;
+    background:transparent;
+    border: none;
+    pointer-events: none;
+    font-size: 15px;
+    font-family: cursive;
+}
+#out{
+    margin-top: 5px;
+    margin-left: 580px;
+    background:transparent;
+    border: none;
+    pointer-events: none;
+    font-size: 15px;
+    font-family: cursive;
+    
+}
+.box1,.box2,.wins{
+    height: 100px;
+    width: 100px;
+    background:#086e7d;
+    margin-top:5px;
+    margin-left:100px;
+    float: left;
+    border-radius: 30px;
+}
+.box2{
+    margin-left: 300px;
+}
+.wins{
+    margin-left: 320px;
+    width:200px;
+    height: 60px;
+    margin-top: 20px;
+    background-color:#2B2B2B;
+}
+
+.h3{
+    margin-top: 8px;
+    margin-left: 10px;
+   font-size: 15px;
+}
+#score1,#score2{
+    margin-top: 16px;
+    margin-left: 14px;
+    width:60px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    background:transparent;
+    border: none;
+    pointer-events: none;
+}
+
+#info{
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#ffba00;
+    font-size: 27px;
+    background: transparent;
+    border: none;
+    pointer-events: none;
+
+}
+.scores{
+    height:110px;
+   
+}
+.code{
+    height: 180px;
+}
+.user{
+    width:180px;
+    height: 130px;
+    margin-left: 240px;
+    float: left;
+}
+.announce{
+    height:150px;
+    width:320px;
+  
+    float: left;
+}
+.comp_image{
+    width:200px;
+    height: 200px;
+    margin-right: 280px;
+    float: right;
+}
+#pick{
+  
+    height: 180px;
+
+}
+#winner{
+    height: 100px;
+    margin-top: 20px;
+    width:360px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #a52a2a;
+    border: none;
+    pointer-events: none;
+    background: transparent;
+   text-align: center;
+
+}
+#comp_pick{
+  
+    height: 180px;   
+}
+.starter{
+    margin-left: 530px    
+}
+.play {
+    width:180px;
+    height: 40px;
+  color:#003f5c;
+  border-color:#2B2B2B;
+  box-shadow: none;
+  background-color:transparent;
+  cursor: pointer;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  text-align: center;
+  transition: all .3s;
+  touch-action: manipulation;
+}
+
+.play:hover {
+  border-color:#C71585;
+  color: #C71585;
+  fill: #C71585;
+}
+
+.play:active {
+  border-color:#cf23cf ;
+  color:#cf23cf;
+  fill: #cf23cf;
+}
+
